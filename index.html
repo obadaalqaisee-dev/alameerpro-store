@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>متجر الأمير للمنظفات</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>🧼 متجر الأمير للمنظفات</h1>
+<button onclick="openCart()">🛒 السلة (<span id="cart-count">0</span>)</button>
+</header>
+
+<section class="grid">
+
+<div class="card">
+<h3>منظف أرضيات فخم</h3>
+<p>3.5 دينار</p>
+<button onclick="addToCart('منظف أرضيات فخم', 3.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>معقم قوي</h3>
+<p>4 دينار</p>
+<button onclick="addToCart('معقم قوي', 4)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>سائل جلي ليمون</h3>
+<p>2 دينار</p>
+<button onclick="addToCart('سائل جلي ليمون', 2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف زجاج</h3>
+<p>2.5 دينار</p>
+<button onclick="addToCart('منظف زجاج', 2.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>كلور مركز</h3>
+<p>3 دينار</p>
+<button onclick="addToCart('كلور مركز', 3)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>معطر حمام</h3>
+<p>2 دينار</p>
+<button onclick="addToCart('معطر حمام', 2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف ملابس</h3>
+<p>5 دينار</p>
+<button onclick="addToCart('منظف ملابس', 5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>بودرة غسيل</h3>
+<p>6 دينار</p>
+<button onclick="addToCart('بودرة غسيل', 6)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>صابون سائل</h3>
+<p>2 دينار</p>
+<button onclick="addToCart('صابون سائل', 2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف مطبخ</h3>
+<p>3 دينار</p>
+<button onclick="addToCart('منظف مطبخ', 3)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف حمامات</h3>
+<p>3.5 دينار</p>
+<button onclick="addToCart('منظف حمامات', 3.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>مناديل معقمة</h3>
+<p>1.5 دينار</p>
+<button onclick="addToCart('مناديل معقمة', 1.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>مطهر يدين</h3>
+<p>2 دينار</p>
+<button onclick="addToCart('مطهر يدين', 2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>معطر جو</h3>
+<p>2.5 دينار</p>
+<button onclick="addToCart('معطر جو', 2.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف سجاد</h3>
+<p>4 دينار</p>
+<button onclick="addToCart('منظف سجاد', 4)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>مزيل دهون</h3>
+<p>3 دينار</p>
+<button onclick="addToCart('مزيل دهون', 3)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف أثاث</h3>
+<p>3 دينار</p>
+<button onclick="addToCart('منظف أثاث', 3)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف نوافذ</h3>
+<p>2 دينار</p>
+<button onclick="addToCart('منظف نوافذ', 2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>سائل تنظيف عام</h3>
+<p>2 دينار</p>
+<button onclick="addToCart('سائل تنظيف عام', 2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>كلور مخفف</h3>
+<p>1.5 دينار</p>
+<button onclick="addToCart('كلور مخفف', 1.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف أرضيات برائحة الورد</h3>
+<p>3.8 دينار</p>
+<button onclick="addToCart('منظف أرضيات برائحة الورد', 3.8)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>معطر سيارة</h3>
+<p>2.2 دينار</p>
+<button onclick="addToCart('معطر سيارة', 2.2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف حمام فاخر</h3>
+<p>4.5 دينار</p>
+<button onclick="addToCart('منظف حمام فاخر', 4.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>صابون أطفال</h3>
+<p>2.5 دينار</p>
+<button onclick="addToCart('صابون أطفال', 2.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف مطبخ قوي</h3>
+<p>3.7 دينار</p>
+<button onclick="addToCart('منظف مطبخ قوي', 3.7)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>مزيل بقع</h3>
+<p>3 دينار</p>
+<button onclick="addToCart('مزيل بقع', 3)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف زجاج سيارات</h3>
+<p>3.3 دينار</p>
+<button onclick="addToCart('منظف زجاج سيارات', 3.3)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>معقم أسطح</h3>
+<p>2.8 دينار</p>
+<button onclick="addToCart('معقم أسطح', 2.8)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف أرضيات خشب</h3>
+<p>4.2 دينار</p>
+<button onclick="addToCart('منظف أرضيات خشب', 4.2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف جدران</h3>
+<p>3.1 دينار</p>
+<button onclick="addToCart('منظف جدران', 3.1)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>معطر مفروشات</h3>
+<p>2.6 دينار</p>
+<button onclick="addToCart('معطر مفروشات', 2.6)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف أدوات مطبخ</h3>
+<p>2.9 دينار</p>
+<button onclick="addToCart('منظف أدوات مطبخ', 2.9)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف حمام سباحة</h3>
+<p>5.5 دينار</p>
+<button onclick="addToCart('منظف حمام سباحة', 5.5)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>صابون سائل فاخر</h3>
+<p>2.7 دينار</p>
+<button onclick="addToCart('صابون سائل فاخر', 2.7)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف بلاط</h3>
+<p>3.4 دينار</p>
+<button onclick="addToCart('منظف بلاط', 3.4)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>معقم طبي</h3>
+<p>4.8 دينار</p>
+<button onclick="addToCart('معقم طبي', 4.8)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف أرضيات مركز</h3>
+<p>3.9 دينار</p>
+<button onclick="addToCart('منظف أرضيات مركز', 3.9)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف مطبخ ليمون</h3>
+<p>3.2 دينار</p>
+<button onclick="addToCart('منظف مطبخ ليمون', 3.2)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>منظف متعدد الاستخدام</h3>
+<p>2.4 دينار</p>
+<button onclick="addToCart('منظف متعدد الاستخدام', 2.4)">أضف للسلة</button>
+</div>
+
+<div class="card">
+<h3>معطر فخم</h3>
+<p>2.9 دينار</p>
+<button onclick="addToCart('معطر فخم', 2.9)">أضف للسلة</button>
+</div>
+
+</section>
+
+<div id="cart" class="cart hidden">
+<h2>السلة</h2>
+<ul id="cart-items"></ul>
+<p>المجموع: <span id="total">0</span> دينار</p>
+<button onclick="closeCart()">إغلاق</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
